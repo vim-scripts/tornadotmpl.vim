@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4515
+
+This is a syntax highlight file for Tornado's templates: http://www.tornadoweb.org/en/stable/template.html . Tornado is a web framework written in Python.
+
+To use it, add something like the following in modeline to your templates:
+
+{# vim:se syntax=html.tornadotmpl: #}
+
+Or set the appropriate 'syntax' in some autocmd suitable for you.
